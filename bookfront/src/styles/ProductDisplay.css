@@ -1,0 +1,82 @@
+/* ProductDisplay.css */
+
+
+
+
+.product-display-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-left: 40%;
+  color: #ffffff; /* Set the text color to be visible on the blurred background */
+}
+
+.product-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.product-card {
+  width: 250px;
+  padding: 20px;
+  height: 60%;
+  margin-bottom: 20px;
+  background-color: #504f5561;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+}
+
+.no-products-message {
+  font-size: 18px;
+  text-align: center;
+  color: #fff; /* Set the text color to be visible on the blurred background */
+}
+
+.textm{
+  color: #fff;
+}
+ 
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination-buttons {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.pagination-buttons li {
+  margin: 0 5px;
+}
+
+.pagination-buttons button {
+  background-color: #e0e0e0;
+  color: #333;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.pagination-buttons .active button {
+  background-color: #333;
+  color: #fff;
+}
+
+.edit-button {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.edit-button:hover {
+  background-color: #555;
+}
